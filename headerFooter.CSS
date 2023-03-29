@@ -1,10 +1,28 @@
-.navObject {
+
+/*space out objects and style them */
+.navObject, .footer-info {
     margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgba(183, 0, 255, 0.767);
+    font-size:16px;
+}
+.navObject.hover {
+    text-decoration: underline;
 }
 
-header {
+/* allign header and footercontent to center and give it color*/
+header, footer{
     display: flex;
     position: sticky;
-    align-content:center;
+    top:0;
+    align-content:bottom;
     justify-content: center;
+    background-color: gray;
+    height:100px;
+    width:100%;
+    border-radius: 10px;
 }
+
+
+
+

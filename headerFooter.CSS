@@ -1,0 +1,10 @@
+.navObject {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    align-content:center;
+    justify-content: center;
+}
